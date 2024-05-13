@@ -32,8 +32,12 @@ export default function RelatedProducts() {
           items: 3
         },
         mobile: {
-          breakpoint: { max: 464, min: 0 },
+          breakpoint: { max: 464, min: 385 },
           items: 2
+        },
+        mob: {
+          breakpoint: { max: 385, min: 0 },
+          items: 1
         }
       };
 

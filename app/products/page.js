@@ -12,6 +12,7 @@ import ColorOptions from "../components/colorOptions";
 import SizeOptions from "../components/sizeOption";
 import DesignOptions from "../components/designOptions";
 import FilterBox from "../components/filterBox";
+import MainContent from "../components/mainContent";
 
 
 const Title = styled.h2`
@@ -59,6 +60,7 @@ export default function Productspage() {
     return(
         <>
         <Header/>
+        
         <Main>
            <FilterBox/>
           <div>
@@ -66,7 +68,7 @@ export default function Productspage() {
          <ProductsGrid products={products} />
          </div>
          </Main>
-
+         
         <Footer/>
         </>
     )

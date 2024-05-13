@@ -6,6 +6,7 @@ import { CartContext } from "@/app/components/cartContext";
 import Center from "@/app/components/center";
 import Footer from "@/app/components/footer";
 import Header from "@/app/components/header";
+import MainContent from "@/app/components/mainContent";
 import RelatedProducts from "@/app/components/relatedProducts";
 import { useContext, useEffect, useState } from "react";
 import styled from "styled-components";
@@ -138,6 +139,7 @@ export default function ProductPage({params}) {
     return(
         <>
         <Header/>
+        
         <Center>
           <ColWrapper>
           <Box>
@@ -195,6 +197,7 @@ export default function ProductPage({params}) {
             
         </Center>
         <RelatedProducts/>
+        
         <Footer/>
         </>
     )

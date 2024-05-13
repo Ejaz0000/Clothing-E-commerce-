@@ -9,6 +9,7 @@ import { useContext, useEffect, useState } from "react";
 import Table from "../components/table";
 import Input from "../components/input";
 import Footer from "../components/footer";
+import MainContent from "../components/mainContent";
 
 const ColumnsWrapper = styled.div`
   display: grid;
@@ -224,6 +225,7 @@ export default function CartPage() {
     return(
         <>
          <Header/>
+         <MainContent>
          <Center>
          <ColumnsWrapper>
           <Box>
@@ -305,6 +307,7 @@ export default function CartPage() {
           
          </ColumnsWrapper>
          </Center>
+         </MainContent>
          <Footer/>
 
         </>

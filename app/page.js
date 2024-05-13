@@ -5,6 +5,7 @@ import { Product } from "@/models/Product";
 import NewProducts from "./components/newProducts";
 import { FeatProduct } from "@/models/FeatProduct";
 import Footer from "./components/footer";
+import MainContent from "./components/mainContent";
 
 async function fetchFeaturedProduct() {
   //const featuredProductID= '660931b1cb71069fd6ee3ecc';
@@ -31,8 +32,10 @@ export default async function HomePage() {
   return(
     <div>
       <Header />
+      <MainContent>
       <Featured product={featuredProduct}/>
       <NewProducts products={newProduct}/>
+      </MainContent>
       <Footer/>
     </div>
   )

@@ -11,7 +11,7 @@ const ProductWrapper= styled.div`
         max-width: 180px;
         min-height: 250px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
+       
 `;
 
 const WhiteBox = styled(Link)`
