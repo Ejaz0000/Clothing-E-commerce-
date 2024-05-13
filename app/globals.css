@@ -1,0 +1,12 @@
+body{
+    background-color: #10191c;
+    padding: 0 ;
+    margin: 0;
+    height: 100vh;
+}
+
+/* @media only screen and (max-width: 600px) {
+    body {
+        padding: 0 15px;
+    }
+  } */
